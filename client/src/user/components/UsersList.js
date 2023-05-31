@@ -1,6 +1,7 @@
 import React from "react";
 import "./UsersList.css";
 import UserItem from "./UserItem";
+import Card from "../../shared/components/UIElements/Card";
 
 function UsersList({ users }) {
   let renderedUsers;
@@ -8,7 +9,9 @@ function UsersList({ users }) {
   if (users.length === 0) {
     renderedUsers = (
       <div className="center">
-        <h2>No users foun</h2>d
+        <Card>
+          <h2>No users foun</h2>
+        </Card>
       </div>
     );
   } else {

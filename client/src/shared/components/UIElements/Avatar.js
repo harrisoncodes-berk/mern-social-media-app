@@ -1,6 +1,6 @@
 import React from "react";
 import "./Avatar.css";
-import Mos from '../../user/mouth_of_sauron.png';
+import Mos from '../../../user/mouth_of_sauron.png';
 
 // CHANGE IMG SRC to image prop
 
